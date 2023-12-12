@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Rubik+Bubbles&display=swap');
+ 
+body{
+    margin: 0px;
+    width: 100%;
+}
+.first{
+    min-width: 840px;
+    background-color: #5FBDFF;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.title{
+    display: flex;
+    font-family: 'Rubik Bubbles' ;
+    font-size: 500%;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: center;
+   
+
+}
+.title-ime{
+    justify-content: space-around;
+}
+
+.web-developer{
+    font-family: Oswald;
+    font-size: 300%;
+}
+.gornjaslika{
+    align-self: flex-start;
+    
+    
+}
+.footer{
+    display: flex;
+    min-height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    gap=7rem;
+    font-family: Oswald;
+}
+
+.footer a{
+    text-decoration: none;
+    display: flex;
+}
+
+.footer  a:hover{
+    color: red;
+}
+.footer img{
+    max-height: 1.5rem;
+}
+.instagram,.linkedin{
+    display: flex;
+}
