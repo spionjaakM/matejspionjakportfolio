@@ -4,10 +4,11 @@ body{
     margin: 0px;
   
 }
+
 .first{
     min-width: 840px;
     background-color: #5FBDFF;
-    height: 1000px;
+    min-height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -37,41 +38,68 @@ body{
     
     
 }
-.footer{
+.naslovna img{
+    height: 30rem;
+}
+.social{
     display: flex;
     min-height: 100px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 7rem;
     font-family: Oswald;
 }
 
-.footer a{
+.social a{
     text-decoration: none;
     display: flex;
 }
 
-.footer  a:hover{
+.social  a:hover{
     color: red;
 }
-.footer img{
+.social img{
     max-height: 1.5rem;
 }
 .instagram,.linkedin{
     display: flex;
 }
-.izrada{
-    display: none;
-}
 
 @media (max-width:840px){
     .first{
-        display: none;
+        min-width: 350px;
+        min-height: 300px;
+        /* width: 100%; */
+        background-color: #5FBDFF;
+       gap: 0.3rem;
+       justify-content: flex-start;
+        
+
     }
-    .footer{
-        display: none;
+    .title{
+        font-size: 100%;
+        gap: 0.5rem;
+
+       
     }
-    .izrada{
-        display:contents;
+    .naslovna{
+        height: 3rch;
     }
+    .naslovna img{
+        height: 5rem;
+    }
+    .gornjaslika img{
+        max-width: 3rem;
+        
+        
+    }
+    .social{
+    min-height: 100px;
+    max-height: auto;
+    min-width: 350px;
+    gap: 2rem;
+
 }
+    }
+
+    
