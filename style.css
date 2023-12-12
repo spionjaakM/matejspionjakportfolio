@@ -2,7 +2,7 @@
  
 body{
     margin: 0px;
-    width: 100%;
+  
 }
 .first{
     min-width: 840px;
@@ -40,9 +40,9 @@ body{
 .footer{
     display: flex;
     min-height: 100px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap=7rem;
+    gap: 7rem;
     font-family: Oswald;
 }
 
@@ -59,4 +59,19 @@ body{
 }
 .instagram,.linkedin{
     display: flex;
+}
+.izrada{
+    display: none;
+}
+
+@media (max-width:840px){
+    .first{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .izrada{
+        display:contents;
+    }
 }
